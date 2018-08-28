@@ -2,7 +2,7 @@ const path = require("path");
 const fs  = require('fs');
 const HtmlWebpackPlugin = require("html-webpack-plugin");
 const lessToJs = require('less-vars-to-js');
-const themeVariables = lessToJs(fs.readFileSync(path.join(__dirname, './ant-theme-vars.less'), 'utf8'));
+const themeVariables = lessToJs(fs.readFileSync(path.join(__dirname, './antThemeCustomization.less'), 'utf8'));
 
 module.exports = {
   entry: "./src/index.js",
