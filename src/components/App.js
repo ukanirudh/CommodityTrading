@@ -1,5 +1,6 @@
 import React, { Component } from "react";
 import TestApp from './testApp.js'
+import Trading from '../trading'
 import '../styles/App.css';
 
 class App extends Component {
@@ -8,6 +9,7 @@ class App extends Component {
             <div>
                 <h1>My React App!</h1>
                 <TestApp />
+                <Trading />
             </div>
         );
     }
